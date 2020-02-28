@@ -49,6 +49,14 @@ You can checkout this [Youtube](https://www.youtube.com/watch?v=PzSf9tRPKDc) vid
 It almost looks as if you are reading a magazine.
 ![Live streaming](docs/images/magazine.png)
 
+## Targetgroup
+Set a targetgroup cookie that you can use to showcase segmentation/experience.
+Cookie-name is `targetgroup` and value is `account`, `lawyer` or `merchant` ![Targetgroup configuration](docs/images/targetgroup.png)
+
 ## Twitter
 A simple twitter button
 ![Tweet tweet](docs/images/twitter.png)
+
+## UTM Tracker
+Convert utm params into cookies so you can use them for segementation/experience
+![Tweet tweet](docs/images/utmtracker.png)
