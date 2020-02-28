@@ -1,0 +1,19 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "name": "quoteText",
+                    "label": "Quote Text",
+                    "description": "quote-text",
+                    "type": "text",
+                    "typeOptions": {
+                        "placeholder": "For great ideas and real innovation you need interaction between people."
+                    },
+                    "dataType": "string",
+                    "defaultValue": "For great ideas and real innovation you need interaction between people."
+                }
+            ]
+        }
+    ]
+}
