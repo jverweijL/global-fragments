@@ -48,3 +48,7 @@ You can checkout this [Youtube](https://www.youtube.com/watch?v=PzSf9tRPKDc) vid
 ## Magazine
 It almost looks as if you are reading a magazine.
 ![Live streaming](docs/images/magazine.png)
+
+## Twitter
+A simple twitter button
+![Tweet tweet](docs/images/twitter.png)
