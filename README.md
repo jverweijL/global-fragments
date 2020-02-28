@@ -44,3 +44,7 @@ Fragment to show a small LinkedIN button to share the page. ![A hubspot chatbot]
 
 ## Live Stream
 You can checkout this [Youtube](https://www.youtube.com/watch?v=PzSf9tRPKDc) video. Or try stream yourself. ![Live streaming](docs/images/livestream.png)
+
+## Magazine
+It almost looks as if you are reading a magazine.
+![Live streaming](docs/images/magazine.png)
