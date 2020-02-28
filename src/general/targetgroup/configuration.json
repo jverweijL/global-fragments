@@ -11,15 +11,15 @@
                   "dataType": "string",
                   "typeOptions": {
                       "validValues": [
-                          {
-                              "value": "accountants"
-                          },
-                          {
-                              "value": "lawyers"
-                          },
-                          {
-                              "value": "merchants"
-                          }
+                        {
+                            "value": "accountant"
+                        },
+                        {
+                            "value": "lawyer"
+                        },
+                        {
+                            "value": "merchant"
+                        }
                       ]
                   },
                   "defaultValue": "accountants"

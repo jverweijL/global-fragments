@@ -1,3 +1,11 @@
 .targetgroup {
-  color: inherit;
+  background-color: inherit;
+  display: none;
+}
+
+.targetgroup.fragment-edit {
+  color: white;
+  background-color: blue;
+  display: block;
+  height: 100px;
 }
