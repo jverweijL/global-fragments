@@ -9,6 +9,8 @@ how to manage this project in the [generator documentation][2].
 
 sudo npm run compress
 
+# Sections
+
 ## Banner only
 Sometimes you just want to show a banner without any Title, text or CTA. It automatically adjusts to the full width.
 ![A modal window](docs/images/banner-only.png)
@@ -28,3 +30,14 @@ Movevement always attracts the eye. This will show a video and you can adjust th
 ## Waves
 To show a more fluid approach when presenting text. You can modify the quote.
 ![With waves you can show a quote in a more fluid design](docs/images/wave.png)
+
+
+# Components
+## ChartJS1
+## ChartJS2
+## Hubspot chatbot
+Quickly add a hubspot integration to your page with this component. A chatbot will be started and/or popup will appear.
+![A hubspot chatbot](docs/images/hubspot.png) ![A hubspot chatbot](docs/images/hubspot2.png)
+
+## LinkedIN
+Fragment to show a small LinkedIN button to share the page. ![A hubspot chatbot](docs/images/LinkedIN.png)
