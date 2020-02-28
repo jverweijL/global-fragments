@@ -41,3 +41,6 @@ Quickly add a hubspot integration to your page with this component. A chatbot wi
 
 ## LinkedIN
 Fragment to show a small LinkedIN button to share the page. ![A hubspot chatbot](docs/images/LinkedIN.png)
+
+## Live Stream
+You can checkout this [Youtube](https://www.youtube.com/watch?v=PzSf9tRPKDc) video. Or try stream yourself. ![Live streaming](docs/images/livestream.png)
