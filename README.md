@@ -8,3 +8,6 @@ how to manage this project in the [generator documentation][2].
 
 
 sudo npm run compress
+
+## Waves
+![With waves you can show a quote in a more fluid design][./docs/images/wave.png]
