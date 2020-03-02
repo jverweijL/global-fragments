@@ -1,4 +1,4 @@
-var url = "/documents/20128/0/Chart.2.9.3.js";
+var url = "https://cdn.jsdelivr.net/npm/chart.js@2.9.3";
 $.getScript( url )
   .done(function( script, textStatus ) {
     
