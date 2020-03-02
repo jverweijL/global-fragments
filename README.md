@@ -35,7 +35,11 @@ To show a more fluid approach when presenting text. You can modify the quote.
 
 # Components
 ## ChartJS1
+Sample of embedding bar charts.
+![chart1](docs/images/chart1.png)
 ## ChartJS2
+Sample of embedding pie charts.
+![chart1](docs/images/chart2.png)
 ## Hubspot chatbot
 Quickly add a hubspot integration to your page with this component. A chatbot will be started and/or popup will appear.
 ![A hubspot chatbot](docs/images/hubspot.png) ![A hubspot chatbot](docs/images/hubspot2.png)
