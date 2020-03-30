@@ -40,6 +40,10 @@ Sample of embedding bar charts.
 ## ChartJS2
 Sample of embedding pie charts.
 ![chart1](docs/images/chart2.png)
+## Google Hangout
+Sample of embedding Google Hangout (Both sync and async).
+![hangout button](docs/images/hangout1.png)  
+![hangout session](docs/images/hangout2.png)  
 ## Hubspot chatbot
 Quickly add a hubspot integration to your page with this component. A chatbot will be started and/or popup will appear.
 ![A hubspot chatbot](docs/images/hubspot.png) ![A hubspot chatbot](docs/images/hubspot2.png)
