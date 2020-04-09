@@ -10,6 +10,35 @@ how to manage this project in the [generator documentation][2].
 sudo npm run compress
 ```
 
+Collection dashboard  
+  - fragment chartJS1  
+  - fragment chartJS2  
+  - fragment Tableau  
+
+Collection general
+  - fragment Alert
+  - fragment Async Hangout
+  - fragment Auto Show Modal
+  - fragment Badge
+  - fragment Banner Only
+  - fragment Basic Hangout
+  - fragment Checked List
+  - fragment hubspotchatbot
+  - fragment LinkedIN
+  - fragment livestream
+  - fragment magazine
+  - fragment Modal
+  - fragment OPButton
+  - fragment paragraph-deluxe
+  - fragment pricingplan
+  - fragment SimpleCard
+  - fragment targetgroup
+  - fragment Twitter
+  - fragment Twitter Timeline
+  - fragment UTM Tracker
+  - fragment Video Header
+  - fragment Static Wave
+
 # Sections
 
 ## Banner only
