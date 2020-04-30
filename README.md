@@ -6,6 +6,18 @@ how to manage this project in the [generator documentation][2].
 [1]: https://www.npmjs.com/package/generator-liferay-fragments
 [2]: https://www.npmjs.com/package/generator-liferay-fragments#usage
 
+**Create a collection**
+```
+npm run add-collection
+```
+
+**Create a new fragment with**
+```
+npm run add-fragment
+```
+
+
+**Create a zipfile with**
 ```
 sudo npm run compress
 ```
