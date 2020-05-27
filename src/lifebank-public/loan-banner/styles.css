@@ -1,0 +1,165 @@
+/*================================================
+Main Banner Area CSS
+=================================================*/
+.load-banner {
+  height: 100vh;	
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAkSURBVHgB7cxBEQAACAIwtH8Pzw52kxD8OBZgNXsPQUOUwCIgAz0DHTyygaAAAAAASUVORK5CYII=");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.load-banner-content {
+  margin-top: -20px;
+  max-width: 600px;
+}
+
+.load-banner-content h1 {
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.load-banner-content p,
+.load-banner-content .subtitle,
+.load-banner-content ul li {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  max-width: 400px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.load-banner-content p,
+.load-banner-content .subtitle {
+  margin-bottom: 20px;
+}
+
+/** ---------------/
+/**  FORM Options  /
+/-----------------*/
+.quote-form {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.quote-form::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  background: #ffffff;
+  width: 96%;
+  opacity: .62;
+  height: 50%;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.quote-form::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  background: #ffffff;
+  width: 96%;
+  opacity: .62;
+  height: 50%;
+  top: -10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.quote-form form {
+  text-align: center;
+}
+
+.quote-form form .form-group {
+  margin-bottom: 5px;
+  padding: 30px 10px 0px 15px;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  border-radius: 5px;
+}
+
+.quote-form form .form-group label {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  color: #fff;
+  margin-bottom: 0;
+  display: block;
+  font-weight: 300;
+  font-size: 13.5px;
+}
+
+.quote-form form .form-group .form-control {
+background-color: transparent;
+border: none;
+color: #fff;
+font-size: 17px;
+font-weight: 500;
+}
+
+.quote-form form .form-group .form-control::-webkit-input-placeholder {
+color: #ffffff;
+}
+
+.quote-form form .form-group .form-control:-ms-input-placeholder {
+color: #ffffff;
+}
+
+.quote-form form .form-group .form-control::-ms-input-placeholder {
+color: #ffffff;
+}
+
+.quote-form form .form-group .form-control::placeholder {
+color: #ffffff;
+}
+
+.quote-form form .form-group .quote-select select option {
+color: #212529;
+}
+
+.quote-form form button {
+margin-top: 15px;
+}
+
+.quote-form form .fin-btn::before {
+background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+}
+
+.quote-form form .fin-btn::after {
+background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+}
+
+.quote-form form .terms-info {
+margin-top: 15px;
+}
+
+.quote-form form .terms-info p {
+font-size: 14px;
+}
+
+.quote-form form .terms-info p a {
+display: inline-block;
+color: #212529;
+}
+
+.quote-form form .terms-info p a:hover {
+color: #ee0979;
+}

@@ -1,0 +1,42 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "default",
+					"label": "Color",
+					"name": "iconColor",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "pink "
+							},
+							{
+								"value": "green"
+							},
+							{
+								"value": "violet"
+							},
+							{
+								"value": "orange"
+							}
+						]
+					}
+        },
+        {
+					"dataType": "string",
+					"defaultValue": "info",
+					"label": "Icon",
+					"name": "icon",
+					"type": "text",
+                    "typeOptions": {
+                        "placeholder": "info"
+                    }
+				}
+        
+      ]
+    }
+  ]
+}

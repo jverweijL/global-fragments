@@ -1,0 +1,18 @@
+{
+  "fieldSets": [
+    {
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "image",
+					"label": "Input field to store image",
+					"name": "input",
+					"type": "text",
+          "typeOptions": {
+              "placeholder": "image"
+          }
+				}
+			]
+		}
+  ]
+}

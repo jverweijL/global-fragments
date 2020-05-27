@@ -1,0 +1,122 @@
+.single-features-box {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.single-features-box .icon {
+  width: 65px;
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 65px;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+
+.single-features-box .icon i::before {
+  font-size: 30px;
+  margin-top: 16px;
+}
+
+.single-features-box .icon.bg-default {
+  background-color:  rgba(231, 70, 69, 0.2);
+  color: #ee0979;
+}
+
+.single-features-box .icon.bg-pink {
+  background-color: rgba(247, 138, 203, 0.3);
+  color: #f78acb;
+}
+
+.single-features-box .icon.bg-green {
+  background-color: #cdf1d8;
+  color: #44ce6f;
+}
+
+.single-features-box .icon.bg-violet {
+  color: #c679e3;
+  background: #edc3fc;
+}
+
+.single-features-box .icon.bg-orange {
+  color: #eb6b3d;
+  background: rgba(235, 107, 61, 0.3);
+}
+
+.single-features-box h3 {
+  margin-bottom: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+.single-features-box h3 a {
+  display: inline-block;
+}
+
+.single-features-box p,
+.single-features-box p + div {
+  font-size: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #57647c;
+}
+
+.single-features-box::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 0;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#ee0979), to(#ff6a00));
+  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.single-features-box:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.single-features-box:hover::before {
+  width: 100%;
+}
+
+.single-features-box:hover .icon {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  color: #ee0979;
+  background-color: #ffffff;
+}
+
+.single-features-box:hover h3 {
+  color: #ffffff;
+}
+
+.single-features-box:hover h3 a {
+  color: #ffffff;
+}
+
+.single-features-box:hover p,
+.single-features-box:hover p + div {
+  color: #ffffff !important;
+}

@@ -1,0 +1,18 @@
+<div class="camera-container">
+  <div id="my_camera"></div>
+  <a id="snaplink" class="fin-btn fin-btn-primary" title="Take Snapshot"
+ href="#" onclick="take_snapshot();return false;">Take Snapshot</a>
+  <div id="results" ></div>
+</div>
+
+<!-- Code to handle taking the snapshot and displaying it locally -->
+<script type="text/javascript">
+  function take_snapshot() {
+    // take snapshot and get image data
+    Webcam.snap( function(data_uri) {
+    // display results in page
+    document.getElementById('results').innerHTML = 
+    '<img src="'+data_uri+'"/>';
+    } );
+  }
+ </script>

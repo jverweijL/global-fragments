@@ -1,0 +1,9 @@
+#my_camera{
+  width: 320px;
+  height: 240px;
+  margin: 20px auto;
+}
+.camera-container {
+  width: 100%;
+  text-align: center;
+}
