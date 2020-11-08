@@ -1,0 +1,19 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "name": "newColor",
+                    "label": "New Color (hex)",
+                    "description": "new-color-text",
+                    "type": "text",
+                    "typeOptions": {
+                        "placeholder": "#ff0000"
+                    },
+                    "dataType": "string",
+                    "defaultValue": "#ff0000"
+                }
+            ]
+        }
+    ]
+}
